@@ -1,0 +1,35 @@
+/*components */
+@import "./components/nav-box.css";
+@import "./components/image-box.css";
+@import "./components/image-card.css";
+
+@import "reset.css";
+@import "header.css";
+@import "main.css";
+@import "footer.css";
+
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: #eeeeee;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.selected-text {
+  color: #000000;
+  position: relative;
+  z-index: 1;
+}
+
+.circle {
+  width: 40px;
+  height: 40px;
+  background-color: #fecc2f;
+  border-radius: 50%;
+}
+
+.hidden {
+  display: none;
+}
