@@ -34,7 +34,7 @@
 
 - [x] 클래스명 축약 : main-content**content**nav**circile -> main-content**nave_circle
 - [x] 파일 네이밍 변경 : (\_) -> (-) 이용
-- [ ] 다음에는 forEach 사용해 볼 것
-- [ ] imageCard[n].childNodes[i].className === "image-card\_\_comment" (현재 상태에서는 재활용 가능성이 없어 아직 구현 x)
+- [x] 다음에는 forEach 사용해 볼 것
+- [x] imageCard[n].childNodes[i].className === "image-card\_\_comment" (현재 상태에서는 재활용 가능성이 없어 아직 구현 x)
 - [x] children[1].children 대신 셀렉터로 표현가능 (imageBoxContainer.querySelector(".image-box\_\_page-info") 등 활용)
 - [x] el,boxInfo 등 변수명 불분명 -> 헝가리안 표기법 확인할 것 ( 헝가리안 표기법은 프로젝트 규모가 큰 현재에는 잘 사용하지 않는 방법이라고 하여 변수명을 좀 더 의미있게 변경 )
